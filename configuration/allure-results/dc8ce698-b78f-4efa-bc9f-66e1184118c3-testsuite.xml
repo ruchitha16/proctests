@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1606746004312" stop="1606746033861">
+	<name>BankManager Login Test</name>
+	<title>BankManager Login Test</title>
+	<test-cases>
+		<test-case start="1606746004312" stop="1606746008988" status="passed">
+			<name>Login as Bank Manager</name>
+			<title>Login as Bank Manager</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="78f5b457-7bbe-4ef3-8018-e8ee33f75580-attachment.png" type="image/png" size="19833"/>
+			</attachments>
+		</test-case>
+		<test-case start="1606746008988" stop="1606746023038" status="passed">
+			<name>Add Customer</name>
+			<title>Add Customer</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="40a03536-6d50-4677-b9ab-50585218ca25-attachment.png" type="image/png" size="36281"/>
+			</attachments>
+		</test-case>
+		<test-case start="1606746023038" stop="1606746033860" status="passed">
+			<name>Search Customer</name>
+			<title>Search Customer</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="d07c43bb-eccd-463b-8dad-aece75262d15-attachment.png" type="image/png" size="39541"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

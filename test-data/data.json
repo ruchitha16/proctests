@@ -1,0 +1,67 @@
+{
+  "testsiteurl": "http://www.way2automation.com/angularjs-protractor/banking/#/login",
+  "title": "Protractor practice website - Banking App",
+  "locators": {
+    "homepage": {
+      "customerLoginButton": "customer()",
+      "managerLoginButton": "manager()"
+    },
+    "managerDashBoard": {
+      "addCustomer": "addCust()",
+      "openAccount": "openAccount()",
+      "customers": "showCust()"
+    },
+    "addcustomerdetailspage": {
+      "addcustomerbutton": "addCust()",
+      "firstName": "fName",
+      "lastName": "lName",
+      "pinCode": "postCd",
+      "addcustomer": ".btn.btn-default",
+      "testdata": {
+        "firstnameName": "Ruchitha",
+        "lastName": "Srikanta",
+        "pinCode": "56009"
+      }
+    },
+    "openAccount": {
+      "customerName":"Ruchitha Srikanta",
+      "currencyData":"Rupee",
+      "selectUser": "userSelect",
+      "currency": "currency",
+      "process": "process"
+    },
+    "customersComponent": {
+      "searchCustomer": "searchCustomer",
+      "searchCustomerData":"Ruchitha",
+      "deleteCustomer": "deleteCust(cust)"
+    },
+    "customerLogin": {
+      "selectCustomer": "custId",
+      "loginButton": "Login",
+      "customerName":"Ruchitha Srikanta"
+    },
+    "customerDashboard": {
+      "transactions": "[ng-click=\"transactions()\"]",
+      "depositAmount":30000,
+      "withdrawAmountPositive":2090,
+      "withdrawAmountNegative":123456678,
+      "deposit": "[ng-click=\"deposit()\"]",
+      "withdrawl": "[ng-click=\"withdrawl()\"]",
+      "submitButton":".btn.btn-default",
+      "errorModel":".error.ng-binding",
+      
+      "logout": "byebye()"
+    },
+    "deposit": {
+      "amount": "amount",
+      "deposit": ".btn.btn-default",
+      "depositSuccessMessage":"Deposit Successful"
+    },
+    "withdrawl": {
+      "amount": "amount",
+      "withdrawl": ".btn.btn-default",
+      "withDrawSuccessMessage":"Transaction successful",
+      "withDrawFailureMessage":"Transaction Failed. You can not withdraw amount more than the balance."
+    }
+  }
+}

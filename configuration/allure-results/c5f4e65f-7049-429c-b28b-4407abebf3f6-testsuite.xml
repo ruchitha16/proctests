@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1606757373949" stop="1606757406869">
+	<name>BankManager Login Test</name>
+	<title>BankManager Login Test</title>
+	<test-cases>
+		<test-case start="1606757373949" stop="1606757380970" status="passed">
+			<name>Login as Bank Manager</name>
+			<title>Login as Bank Manager</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="088598fb-68a1-41d4-a9f6-dbd12c71b4f4-attachment.png" type="image/png" size="19833"/>
+			</attachments>
+		</test-case>
+		<test-case start="1606757380971" stop="1606757389894" status="passed">
+			<name>Add Customer</name>
+			<title>Add Customer</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="9f4e39d4-5752-41ed-8f9e-5759df2c6649-attachment.png" type="image/png" size="34387"/>
+			</attachments>
+		</test-case>
+		<test-case start="1606757389894" stop="1606757396260" status="passed">
+			<name>Open Account</name>
+			<title>Open Account</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="2cf69bff-c758-4821-b400-4a81c7cad2ae-attachment.png" type="image/png" size="30991"/>
+			</attachments>
+		</test-case>
+		<test-case start="1606757396260" stop="1606757398102" status="passed">
+			<name>Login User</name>
+			<title>Login User</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="db30c32d-3b72-4847-b1a1-1202a614fe8c-attachment.png" type="image/png" size="31397"/>
+			</attachments>
+		</test-case>
+		<test-case start="1606757398103" stop="1606757400888" status="passed">
+			<name>Deposit Amount</name>
+			<title>Deposit Amount</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="7ad770bd-022b-4e45-92ac-eab7d90c6822-attachment.png" type="image/png" size="41621"/>
+			</attachments>
+		</test-case>
+		<test-case start="1606757400888" stop="1606757406381" status="passed">
+			<name>Withdraw Amount</name>
+			<title>Withdraw Amount</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="3676363b-14d7-4b69-8b53-a2ba741fed32-attachment.png" type="image/png" size="43775"/>
+			</attachments>
+		</test-case>
+		<test-case start="1606757406381" stop="1606757406869" status="failed">
+			<name>Verify Transaction</name>
+			<title>Verify Transaction</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="45fc250f-b232-4f47-a456-ab2a060b1309-attachment.png" type="image/png" size="36512"/>
+			</attachments>
+			<failure>
+				<message>Failed: No element found using locator: by.repeater(&quot;tx in transactions&quot;).row(&quot;2&quot;).column(&quot;tx.date&quot;)</message>
+				<stack-trace>NoSuchElementError: No element found using locator: by.repeater(&quot;tx in transactions&quot;).row(&quot;2&quot;).column(&quot;tx.date&quot;)
+    at C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27
+    at ManagedPromise.invokeCallback_ (C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+    at C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.&lt;computed&gt; [as getText] (C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.&lt;computed&gt; [as getText] (C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at CustomerOperations.verifyTransaction (C:\Users\Ruchitha\Documents\project\pages\CustomerOperations.js:46:25)
+    at UserContext.&lt;anonymous&gt; (C:\Users\Ruchitha\Documents\project\test_specs_files\CustomerLogin_spec.js:40:27)
+    at C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+From: Task: Run it(&quot;Verify Transaction&quot;) in control flow
+    at UserContext.&lt;anonymous&gt; (C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+From asynchronous test: 
+Error
+    at Suite.&lt;anonymous&gt; (C:\Users\Ruchitha\Documents\project\test_specs_files\CustomerLogin_spec.js:39:5)
+    at addSpecsToSuite (C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.&lt;anonymous&gt; (C:\Users\Ruchitha\Documents\project\test_specs_files\CustomerLogin_spec.js:3:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

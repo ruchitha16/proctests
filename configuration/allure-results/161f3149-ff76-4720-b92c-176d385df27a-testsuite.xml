@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1606747585753" stop="1606747634194">
+	<name>BankManager Login Test</name>
+	<title>BankManager Login Test</title>
+	<test-cases>
+		<test-case start="1606747585753" stop="1606747590527" status="passed">
+			<name>Login as Bank Manager</name>
+			<title>Login as Bank Manager</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="d84febb7-4b9a-436c-ae9f-ea1f29bedbf6-attachment.png" type="image/png" size="21847"/>
+			</attachments>
+		</test-case>
+		<test-case start="1606747590528" stop="1606747604956" status="passed">
+			<name>Add Customer</name>
+			<title>Add Customer</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="6211843e-43b6-4e5c-afea-390a9583d462-attachment.png" type="image/png" size="36281"/>
+			</attachments>
+		</test-case>
+		<test-case start="1606747604956" stop="1606747615779" status="passed">
+			<name>Search Customer</name>
+			<title>Search Customer</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="9392467c-1ca3-496e-814d-84886e413fb6-attachment.png" type="image/png" size="39541"/>
+			</attachments>
+		</test-case>
+		<test-case start="1606747615779" stop="1606747622314" status="passed">
+			<name>Open Account</name>
+			<title>Open Account</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="d4cd350d-b595-4ddd-8e33-70117c92bea1-attachment.png" type="image/png" size="32964"/>
+			</attachments>
+		</test-case>
+		<test-case start="1606747622314" stop="1606747634193" status="passed">
+			<name>Add Customer Duplicate</name>
+			<title>Add Customer Duplicate</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="10d10c98-3df9-4980-bb17-85fa88ba0831-attachment.png" type="image/png" size="35750"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1606757745568" stop="1606757778656">
+	<name>BankManager Login Test</name>
+	<title>BankManager Login Test</title>
+	<test-cases>
+		<test-case start="1606757745568" stop="1606757748233" status="passed">
+			<name>Login as Bank Manager</name>
+			<title>Login as Bank Manager</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="da9a5b07-a00d-43db-9197-8a8780f5dd95-attachment.png" type="image/png" size="19833"/>
+			</attachments>
+		</test-case>
+		<test-case start="1606757748233" stop="1606757757189" status="passed">
+			<name>Add Customer</name>
+			<title>Add Customer</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="1fdb00a9-3f5c-47be-8b96-3c23324b9795-attachment.png" type="image/png" size="36281"/>
+			</attachments>
+		</test-case>
+		<test-case start="1606757757189" stop="1606757762190" status="passed">
+			<name>Open Account</name>
+			<title>Open Account</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="613766cc-f8cc-4b6c-93f6-8a2439cd94fb-attachment.png" type="image/png" size="32964"/>
+			</attachments>
+		</test-case>
+		<test-case start="1606757762190" stop="1606757763606" status="passed">
+			<name>Login User</name>
+			<title>Login User</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="650344b9-32c8-4461-9698-615d0e5f19f6-attachment.png" type="image/png" size="33365"/>
+			</attachments>
+		</test-case>
+		<test-case start="1606757763606" stop="1606757766389" status="passed">
+			<name>Deposit Amount</name>
+			<title>Deposit Amount</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="9681877f-4db5-4e4e-98c8-bdb049b967e0-attachment.png" type="image/png" size="43524"/>
+			</attachments>
+		</test-case>
+		<test-case start="1606757766389" stop="1606757771510" status="passed">
+			<name>Withdraw Amount Positive</name>
+			<title>Withdraw Amount Positive</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="5ecfecd1-d4ab-430f-bb95-6ed26f009b63-attachment.png" type="image/png" size="43775"/>
+			</attachments>
+		</test-case>
+		<test-case start="1606757771510" stop="1606757774103" status="passed">
+			<name>Withdraw Amount Negative</name>
+			<title>Withdraw Amount Negative</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="3dcd6e8f-1d76-4950-8fd3-d94fd8085ee6-attachment.png" type="image/png" size="48624"/>
+			</attachments>
+		</test-case>
+		<test-case start="1606757774103" stop="1606757778654" status="failed">
+			<name>Verify Transaction</name>
+			<title>Verify Transaction</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="a04a70da-46d5-469c-a8a5-e0245eb18005-attachment.png" type="image/png" size="36349"/>
+			</attachments>
+			<failure>
+				<message>Expected [  ] to equal Function.</message>
+				<stack-trace>Error: Failed expectation
+    at CustomerOperations.verifyTransaction (C:\Users\Ruchitha\Documents\project\pages\CustomerOperations.js:52:43)
+    at UserContext.&lt;anonymous&gt; (C:\Users\Ruchitha\Documents\project\test_specs_files\CustomerLogin_spec.js:45:27)
+    at C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1606746450266" stop="1606746528539">
+	<name>BankManager Login Test</name>
+	<title>BankManager Login Test</title>
+	<test-cases>
+		<test-case start="1606746450266" stop="1606746490940" status="failed">
+			<name>Login as Bank Manager</name>
+			<title>Login as Bank Manager</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="e0d3a358-a9d0-4999-894c-74acb8ec676a-attachment.png" type="image/png" size="19833"/>
+			</attachments>
+			<failure>
+				<message>Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.</message>
+				<stack-trace>Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.
+    at Timeout._onTimeout (C:\Users\Ruchitha\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4281:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1606746490940" stop="1606746505448" status="passed">
+			<name>Add Customer</name>
+			<title>Add Customer</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="b3ec0539-9460-4c88-9199-e1900e79a2ac-attachment.png" type="image/png" size="36281"/>
+			</attachments>
+		</test-case>
+		<test-case start="1606746505448" stop="1606746517308" status="passed">
+			<name>Add Customer Duplicate</name>
+			<title>Add Customer Duplicate</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="b8933412-2c8b-4b6d-88b0-b524841adac5-attachment.png" type="image/png" size="35750"/>
+			</attachments>
+		</test-case>
+		<test-case start="1606746517308" stop="1606746528224" status="passed">
+			<name>Search Customer</name>
+			<title>Search Customer</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="87c5e716-6a16-42c7-b63b-87739771f1c7-attachment.png" type="image/png" size="39541"/>
+			</attachments>
+		</test-case>
+		<test-case start="1606746528224" stop="1606746528537" status="passed">
+			<name>Open Account</name>
+			<title>Open Account</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="04750f14-ee52-4b65-ae8d-1af3fa07ab2b-attachment.png" type="image/png" size="39553"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

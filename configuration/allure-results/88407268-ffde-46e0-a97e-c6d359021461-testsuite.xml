@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1606758037333" stop="1606758067910">
+	<name>BankManager Login Test</name>
+	<title>BankManager Login Test</title>
+	<test-cases>
+		<test-case start="1606758037334" stop="1606758040010" status="passed">
+			<name>Login as Bank Manager</name>
+			<title>Login as Bank Manager</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="a2e71c24-19da-4db4-9b6e-38c4624c22e3-attachment.png" type="image/png" size="19833"/>
+			</attachments>
+		</test-case>
+		<test-case start="1606758040010" stop="1606758048940" status="passed">
+			<name>Add Customer</name>
+			<title>Add Customer</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="33567343-d948-4da5-8a2e-e75cf0f92e69-attachment.png" type="image/png" size="36281"/>
+			</attachments>
+		</test-case>
+		<test-case start="1606758048940" stop="1606758053883" status="passed">
+			<name>Open Account</name>
+			<title>Open Account</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="f0ac97ed-4c68-42ea-8e03-d52c6b50c202-attachment.png" type="image/png" size="32964"/>
+			</attachments>
+		</test-case>
+		<test-case start="1606758053883" stop="1606758055503" status="passed">
+			<name>Login User</name>
+			<title>Login User</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="9dd5351a-3638-4687-9b6a-6606b4784046-attachment.png" type="image/png" size="33365"/>
+			</attachments>
+		</test-case>
+		<test-case start="1606758055503" stop="1606758058354" status="passed">
+			<name>Deposit Amount</name>
+			<title>Deposit Amount</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="dd343f58-227b-490b-a79f-c304c85b3e0c-attachment.png" type="image/png" size="43524"/>
+			</attachments>
+		</test-case>
+		<test-case start="1606758058354" stop="1606758062918" status="passed">
+			<name>Withdraw Amount Positive</name>
+			<title>Withdraw Amount Positive</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="22e5ab2c-c2c7-493f-b8c0-dffda39fe6c8-attachment.png" type="image/png" size="43775"/>
+			</attachments>
+		</test-case>
+		<test-case start="1606758062919" stop="1606758065541" status="passed">
+			<name>Withdraw Amount Negative</name>
+			<title>Withdraw Amount Negative</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="fa7c5f22-a571-4c94-983a-1e9a1c0c044e-attachment.png" type="image/png" size="48624"/>
+			</attachments>
+		</test-case>
+		<test-case start="1606758065541" stop="1606758067909" status="passed">
+			<name>View Transaction</name>
+			<title>View Transaction</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="0f9af26c-f575-48c4-aef4-6e7c147a99cc-attachment.png" type="image/png" size="36036"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>
